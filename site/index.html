@@ -3,7 +3,20 @@
 <style>:root{--g:#0b7a5e;--ink:#10221a;--bg:#f1f5f3}*{box-sizing:border-box}body{margin:0;font:16px/1.8 Tahoma,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg)}
 .w{max-width:860px;margin:auto;padding:20px}h1{font-size:30px;line-height:1.4;margin:40px 0 10px}h2{margin:36px 0 10px}
 .b{display:inline-block;background:var(--g);color:#fff;padding:12px 22px;border-radius:8px;text-decoration:none;margin:6px 0 6px 8px}.b.o{background:none;color:var(--g);border:1px solid var(--g)}
-.f, .p {display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;} .f > *, .p > * {flex: 1 1 calc(50% - 10px); min-width: 140px;}
+.f, .p {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+    justify-content: center !important;
+    align-items: stretch !important;
+}
+
+.f > *, .p > * {
+    flex: 1 1 calc(48% - 6px) !important;
+    min-width: 130px !important;
+    box-sizing: border-box !important;
+}
 <h1>اعرف مزرعتك تحتاج ميه امتى، قبل ما المحصول يتعب</h1>
 <p>حساسات رخيصة + تطبيق عربي: يحسب لك الري والتسميد، وينبهك على تيليجرام لما الرطوبة تقل أو الجهاز يفصل، ويشغّل المضخة بأمان.</p>
 <a class="b" href="app.html">جرّب مجانًا</a><a class="b o" href="#pricing">الأسعار</a>
